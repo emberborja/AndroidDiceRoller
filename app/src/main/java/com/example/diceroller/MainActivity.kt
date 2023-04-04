@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         val rollButton2: Button = findViewById(R.id.button2)
         val buttonTwoTextView: TextView = findViewById(R.id.textView2)
 
-        val rollBothButton : Button = findViewById(R.id.button3)
+        val rollBothButton: Button = findViewById(R.id.button3)
 
         val myTextViews = listOf<TextView>(buttonOneTextView, buttonTwoTextView)
         rollButton.setOnClickListener { rollDice(listOf(myTextViews.first())) }
